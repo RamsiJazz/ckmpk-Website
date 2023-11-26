@@ -1,0 +1,99 @@
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+.img-logo{
+    max-width: 30%;
+    height : auto;
+}
+.bg-img-1{
+    background-image: url(Images/ckmpk0.png);
+}
+.bg-img-2{
+    background-image: url(Images/ckmpk1.jpg);
+}
+.bg-img-4{
+    background-image: url(Images/ckmpk3.jpg);
+}
+.bg-img-5{
+    background-image: url(Images/ckmpk4.jpg);
+}
+.ckmpk-carousel-img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.about-section{
+    background-image: url(Images/ckmpkAbout.jpg);
+    max-height: 100vh;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.about{
+    width: 80%;
+    float: right;
+    padding: 10px;
+    background-color: white;
+    line-height: 25px;
+    border-radius: 25px;
+}
+ul {
+    list-style-type: none;;
+}
+
+hr{
+    height: 1px;
+    background-color:red;
+    border: none;   
+}
+#read-more-text{
+    display: none;
+}
+li{
+    font-size: 18px;
+}
+.para-font{
+    font-size: 19px;
+}
+#readBtn{
+    background-color: goldenrod;
+    border-radius: 30px;
+    width: 100px;
+    border: none;
+}
+#readBtn:hover{
+    border: solid 2px;
+}
+.contact-section{
+    background-color: #FAFAFA;
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    margin-top: -15px;
+}
+
+.foot-social{
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+}
+.foot-social-img{
+    border-radius: 100%;
+    cursor: pointer;
+}
+.foot-social-img:hover{
+    border: 1px solid grey;
+}
+.li-social{
+    display: inline-block;
+}
+.address{
+    width: 80%;
+    float: right;
+}
+.deco{
+    text-decoration: none;
+}
